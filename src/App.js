@@ -22,7 +22,7 @@ class LambdaDemo extends Component {
     return (
       <p>
         
-        <button onClick={this.handleClick("async-dadjoke")}>{loading ? "Loading..." : "Call Async Lambda"}</button>
+        <button onClick={this.handleClick("async-dadjoke")}>{loading ? "Loading..." : "Click for a joke from dear old dad."}</button>
         <br/>
         <span>{msg}</span>
       </p>
@@ -36,7 +36,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <p>
-            This is my React Template.
+            Hey Daaaad... How'd you get in here???
           </p>
           <LambdaDemo />
         </header>
