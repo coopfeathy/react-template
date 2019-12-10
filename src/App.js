@@ -36,7 +36,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <p>
-            Hey Daaaad... How'd you get in here???
+            Hey Daaad... How'd you get in here???
           </p>
           <LambdaDemo />
         </header>
